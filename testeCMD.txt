@@ -1,0 +1,15 @@
+    1  echo "cachorro"
+    2  echo "cachorro2"
+    3  echo "cachorro" >mensagem.txt
+    4  mensagem.txt
+    5  cat mensagem.txt
+    6  echo "Lorem ipsum sla parte 2" >mensagem.txt
+    7  cat mensagem.txt
+    8  echo "Lorem ipsum sla parte 2">>mensagem.txt
+    9  echo "pato">>mensagem.txt
+   10  cat mensagem.txt
+   11  echo "pato"[6] >>mensagem.txt
+   12  cat mensagem.txt
+   13  echo "pato">>mensagem.txt[6]
+   14  cat mensagem.txt
+   15  history > testeCMD.txt
